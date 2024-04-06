@@ -1,3 +1,4 @@
 # DeepakProjectDemo
 This  is my first Git Repository
-By- Deepak Negi
+<br>
+<b>By- Deepak Negi</b>
