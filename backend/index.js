@@ -11,13 +11,13 @@ app.use(express.json());
 
 // Middleware for hadling CORS policy
 // options1:
-//app.use(cors());
+app.use(cors());
 // options2:
-app.use(cors({
-  origin: 'http://localhost:5000', // Replace with your frontend URL
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type']
-}));
+// app.use(cors({
+//   origin: 'http://localhost:5000', // Replace with your frontend URL
+//   methods: ['GET', 'POST', 'PUT', 'DELETE'],
+//   allowedHeaders: ['Content-Type']
+// }));
 
 app.get('/', (request, response) => {
   console.log(request);
