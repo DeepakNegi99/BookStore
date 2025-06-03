@@ -42,7 +42,7 @@ const CreateBooks = () => {
           type='type'
           volume={title}
           onChange={(e) => setTitle(e.target.value)} 
-          className=""
+          className="border-2 border-sky"
            />
         </div>
       </div>
