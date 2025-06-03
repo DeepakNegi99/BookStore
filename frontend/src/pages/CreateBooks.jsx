@@ -14,7 +14,7 @@ const CreateBooks = () => {
     const data = {
       title,
       author,
-      publishYears,
+      publishYear,
     };
     setLoading(true);
     axios
