@@ -3,3 +3,4 @@ build/
 .env
 backend/config.mjs
 backend/config.mjs
+backend/config.mjs

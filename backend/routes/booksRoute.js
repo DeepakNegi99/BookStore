@@ -39,7 +39,7 @@ Router.get('/', async (request, response) => {
   }
   catch (error) {
     console.error("Error fetching books:", error);
-    return response.status(500).json({ error: "Internal server error" });
+    return response.status(500).json({ error: "Internal server errors" });
   }
 });
 
