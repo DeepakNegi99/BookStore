@@ -4,6 +4,7 @@ import { Book } from '../models/bookModel.js';
 const Router = express.Router();
 
 // Route for Save a new book
+
 Router.post('/', async (request, response) => {
   try {
     if (!request.body.title ||
@@ -29,6 +30,7 @@ Router.post('/', async (request, response) => {
 
 // Route for getting all books
 Router.get('/', async (request, response) => {
+
   try {
     const books = await Book.find({});
     return response.status(200).json({
